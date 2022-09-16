@@ -1,0 +1,38 @@
+
+(15-09-2022)---->
+DDL: (data deefination language)
+1 creat
+2 alter
+3 drop
+4 truncate
+
+Syntax for creating database:
+CREAT database database_name;
+
+Syntax  for creating table:
+CREAT table table_name(column_name data_type,column_name2 data_type);
+
+Syntax for inserting data into table 
+INSERT into table_name values(data1,data2,data3);
+==================================================================================================================================================
+(16-09-2022)---->
+ALTER:
+1.add new column to the existing table;
+2.chang the column datatype;
+3.Remove the column from the existing table;
+4.Syntax for the adding column to existing table;
+
+Alter TABLE:table _name, ADD COLUMN column_name datatype;
+
+syntax for chaining the column datatype.
+
+ALTER  TABLE name
+MODIFY column_name new datatype;
+
+syntax for droping the column fro table;
+ALTER TABLE table_name
+DROP column_name;
+
+syntax foe renaming the column_name;
+ALTER TABLE table_name RENAME, COLUMN old_column_name to new_column_name;
+ 
