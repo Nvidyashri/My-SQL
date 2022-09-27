@@ -36,3 +36,8 @@ DROP column_name;
 syntax foe renaming the column_name;
 ALTER TABLE table_name RENAME, COLUMN old_column_name to new_column_name;
  
+================================================================================================================
+(21-09-2022)------->
+order by : Sort the data either in ascending order or decending order.
+distinct: is to avoid the dulicate values fro the column.
+Aggreate : this functions are perform to calculat on count, sum,,max,min,avg.
